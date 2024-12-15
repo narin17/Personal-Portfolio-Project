@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class=" nav container">
+          <a href="Home.html" class="nav__logo">NR17.</a>
+
+          <input type="checkbox" id="nav-toggler">
+
+          <label for="nav-toggler" class="nav__toggle">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+  
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="Home.html" class="nav__link active-link">Home</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Resume.html" class="nav__link">Resume</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Services.html" class="nav__link">Services</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Projects.html" class="nav__link">Projects</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/Narin.png" alt="" class="about__img">
+          </div>
+
+          <div class="about__content">
+            <h2 class="section__title" data-title="Who am I?">
+              I’m Un Titharin, a Data Scientist <br> and AI & ML Developer
+            </h2>
+
+            <p class="about__description">
+              Hello! I'm a second-year Computer Science student with a strong passion for machine learning and database technologies. I strive to contribute positively to the digital world while continuously expanding my knowledge. Outside academics, I enjoy working on creative projects, volunteering, and setting ambitious personal goals to grow and achieve success.
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Name:</h3>
+                <span class="data__description">Tithnarin Un</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Age:</h3>
+                <span class="data__description">19 Years</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">From:</h3>
+                <span class="data__description">Phnom Penh, Cambodia</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Email</h3>
+                <span class="data__description about__link">untithnarin17@gmail.com</span>
+              </li>
+            </ul>
+
+            <div class="about__bottom">
+              <a href="./assets/pdf/CV.pdf.pdf" class="btn">Download CV</a>
+
+              <div class="about__social-links">
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+
+                <a href="" class="about__social-link">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="My Journey">Qualification</h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Education</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">CoderHouse Courses</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Backend Programming</h3>
+                    <span class="resume__date">2014 - 2016</span>
+                  </div>
+
+                  <p class="resume__description">Learned the foundational principles of backend development, including programming languages, frameworks, and database integration.
+                    Skills gained: Backend architecture, problem-solving, and collaboration.
+                    </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">CADT</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">DATA</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">Studied data-related topics such as analysis, visualization, and machine learning. Focused on practical applications of data science in various industries.
+                    Skills gained: Data analytics, Python, and statistical modeling.</p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Home</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">DATA</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">Explored self-learning initiatives, including online courses and projects in data science and technology to enhance practical knowledge.
+                    Skills gained: Self-motivation, project management, and technical expertise.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Experience</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">About</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">volunteering</h3>
+                    <span class="resume__date">2014 - 2016</span>
+                  </div>
+
+                  <p class="resume__description">Worked as part of a dynamic team, contributing to projects involving backend development and system optimization.
+                    Key contributions: Enhanced system performance, collaborated with cross-functional teams.</p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">SMART</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Data Processing</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">Gained hands-on experience in data management and analysis. Played a pivotal role in implementing automation solutions for repetitive tasks.
+                    Key contributions: Streamlined processes, improved data accuracy.</p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">ABA</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">ML Model</h3>
+                    <span class="resume__date">2023 - 2024</span>
+                  </div>
+
+                  <p class="resume__description">Contributed to the design and execution of machine learning models to drive actionable insights. Worked on innovative projects and research.
+                    Key contributions: Developed predictive models, optimized workflows.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Talent">
+          Professional Skills
+        </h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">C Language</h3>
+              <span class="skills__no">85 %</span>
+            </div>
+
+            <p class="skills__description">
+              Proficient in using the C language for system programming and performance-critical applications. Experienced in memory management, data structures, and developing efficient algorithms.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">C++</h3>
+              <span class="skills__no">70 %</span>
+            </div>
+
+            <p class="skills__description">
+              Skilled in object-oriented programming and developing scalable applications using C++. Familiar with STL, multithreading, and advanced features like templates.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">Python</h3>
+              <span class="skills__no">80 %</span>
+            </div>
+
+            <p class="skills__description">
+              Highly experienced in Python for data analysis, automation, and application development. Proficient in working with libraries like Pandas, NumPy, and Flask for various use cases.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">HTML & CSS</h3>
+              <span class="skills__no">90 %</span>
+            </div>
+
+            <p class="skills__description">
+              Expert in creating responsive, visually appealing web pages using HTML and CSS. Skilled in implementing modern design principles and ensuring cross-browser compatibility.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">React</h3>
+              <span class="skills__no">70 %</span>
+            </div>
+
+            <p class="skills__description">
+              Knowledgeable in building dynamic and interactive web applications using React. Familiar with components, hooks, and state management for efficient frontend development.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills__name">PHP</h3>
+              <span class="skills__no">85 %</span>
+            </div>
+
+            <p class="skills__description">
+              Proficient in developing server-side applications and dynamic websites using PHP. Experienced in integrating databases and implementing RESTful APIs.
+            </p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <p class="footer__copyright">&copy; 2024 Designed by NR17 — a Data Scientist.</p>
+
+        <div class="footer__social-links">
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

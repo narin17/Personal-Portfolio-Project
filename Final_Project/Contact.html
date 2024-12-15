@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Personal Porfolio</title>
+  </head>
+  <body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class=" nav container">
+          <a href="Home.html" class="nav__logo">NR17.</a>
+
+          <input type="checkbox" id="nav-toggler">
+
+          <label for="nav-toggler" class="nav__toggle">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+  
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="Home.html" class="nav__link active-link">Home</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Resume.html" class="nav__link">Resume</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Services.html" class="nav__link">Services</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Projects.html" class="nav__link">Projects</a>
+            </li>
+  
+            <li class="nav__item">
+              <a href="Contact.html" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Get In Touch">
+          Contact Me
+        </h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__details">
+            <div class="contact__item">
+              <i class="fa-solid fa-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Call Us</h3>
+                <span class="contact__data">+855-92294953</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email Us</h3>
+                <span class="contact__data">untithnarin17@mail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Address</h3>
+                <span class="contact__data">Phnom Penh, Cambodia</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" placeholder="Name" class="input__control" />
+              </div> 
+
+                <div class="form__input">
+                  <input type="email" placeholder="Email" class="input__control" />
+                </div>
+              </div>
+
+              <div class="form__input">
+                <input type="text" placeholder="Subject" class="input__control" />
+              </div>
+
+              <div class="form__input">
+                <textarea name="" id="" placeholder="Message" cols="30" rows="10" class="input__control textarea"></textarea>
+              </div>
+
+              <button class="btn contact__btn">Send Message</button>   
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <p class="footer__copyright">&copy; 2024 Designed by NR17 — a Data Scientist.</p>
+
+        <div class="footer__social-links">
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+
+          <a href="" class="footer__social-link">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
